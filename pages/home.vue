@@ -18,16 +18,15 @@
   </div>
   <!-- Make button Compoent to deacres by 1 until it hits 0-->
   <div class='button'>
-    <button>Send your friends free weed</button>
-    
+    <button>Send your friends free weed</button>d
   </div>
 </div>
 </template>
 
 <script>
-export default 
+export default {
   layout: 'sandbox'
-  
+}
 </script>
 
 <style lang="stylus" scoped>

@@ -48,7 +48,7 @@
         <div class="recent-news-wrap">
           <div class="single-recent-news">
           <div class="thumb">
-            <img src="~/assets/img/old-images/holiday-hours.jpg" alt="">
+            <img src="#" alt="">
           </div>
           <div class="content">
             <a href="/office-news#feature-1">
@@ -62,7 +62,7 @@
           </div>
           <div class="single-recent-news">
           <div class="thumb">
-            <img src="~/assets/img/old-images/Christmas-Market-Report-2019.jpg" alt="">
+            <img src="#" alt="">
           </div>
           <div class="content">
             <a href="/office-news#feature-2">
