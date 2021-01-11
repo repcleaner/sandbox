@@ -1,0 +1,36 @@
+<svg class="rating-svg" width="251px" height="47px" viewBox="0 0 251 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="stars" fill-rule="nonzero">
+            <g id="Group" class="char">
+                <polygon id="Path" opacity="0" fill="#0d144b" points="0.24816 46.330002 46.623747 46.330002 46.623747 0 0.248161 0"></polygon>
+                <polygon id="Path" opacity="0" fill="#0d144b" points="0.24816 46.330002 23.435953 46.330002 23.435953 0 0.248161 0"></polygon>
+                <polygon id="Path" fill="#FFCD02" points="33 39 23.339794 31.797214 13.30279 39 17.198426 27.159334 7 19.841466 19.605577 19.841466 23.499595 8 27.395232 19.841466 40 19.841466 29.3384766 27.159334"></polygon>
+            </g>
+            <g id="Group" class="char" transform="translate(51.000000, 0.000000)">
+                <polygon id="Path" opacity="0" fill="#0d144b" points="0.24816 46.330002 46.623747 46.330002 46.623747 0 0.248161 0"></polygon>
+                <polygon id="Path" opacity="0" fill="#0d144b" points="0.24816 46.330002 23.435953 46.330002 23.435953 0 0.248161 0"></polygon>
+                <polygon id="Path" fill="#FFCD02" points="33 39 23.339794 31.797214 13.30279 39 17.198426 27.159334 7 19.841466 19.605577 19.841466 23.499595 8 27.395232 19.841466 40 19.841466 29.3384766 27.159334"></polygon>
+            </g>
+            <g id="Group" class="char" transform="translate(102.000000, 0.000000)">
+                <polygon id="Path" opacity="0" fill="#0d144b" points="0.24816 46.330002 46.623747 46.330002 46.623747 0 0.248161 0"></polygon>
+                <polygon id="Path" opacity="0" fill="#0d144b" points="0.24816 46.330002 23.435953 46.330002 23.435953 0 0.248161 0"></polygon>
+                <polygon id="Path" fill="#FFCD02" points="33 39 23.339794 31.797214 13.30279 39 17.198426 27.159334 7 19.841466 19.605577 19.841466 23.499595 8 27.395232 19.841466 40 19.841466 29.3384766 27.159334"></polygon>
+            </g>
+            <g id="Group" class="char" transform="translate(153.000000, 0.000000)">
+                <polygon id="Path" opacity="0" fill="#0d144b" points="0.24816 46.330002 46.623747 46.330002 46.623747 0 0.248161 0"></polygon>
+                <polygon id="Path" opacity="0" fill="#0d144b" points="0.24816 46.330002 23.435953 46.330002 23.435953 0 0.248161 0"></polygon>
+                <polygon id="Path" fill="#FFCD02" points="33 39 23.339794 31.797214 13.30279 39 17.198426 27.159334 7 19.841466 19.605577 19.841466 23.499595 8 27.395232 19.841466 40 19.841466 29.3384766 27.159334"></polygon>
+            </g>
+            <g id="Group" class="char" transform="translate(153.000000, 0.000000)">
+                <polygon id="Path" opacity="0" fill="#0d144b" points="0.24816 46.330002 46.623747 46.330002 46.623747 0 0.248161 0"></polygon>
+                <polygon id="Path" opacity="0" fill="#0d144b" points="0.24816 46.330002 23.435953 46.330002 23.435953 0 0.248161 0"></polygon>
+                <polygon id="Path" fill="#FFCD02" points="33 39 23.339794 31.797214 13.30279 39 17.198426 27.159334 7 19.841466 19.605577 19.841466 23.499595 8 27.395232 19.841466 40 19.841466 29.3384766 27.159334"></polygon>
+            </g>
+            <g id="Group-Copy" class="char" transform="translate(204.000000, 0.000000)">
+                <polygon id="Path" opacity="0" fill="#0d144b" points="0.24816 46.330002 46.623747 46.330002 46.623747 0 0.248161 0"></polygon>
+                <polygon id="Path" opacity="0" fill="#0d144b" points="0.24816 46.330002 23.435953 46.330002 23.435953 0 0.248161 0"></polygon>
+                <polygon id="Path" fill="#FFCD02" points="33 39 23.339794 31.797214 13.30279 39 17.198426 27.159334 7 19.841466 19.605577 19.841466 23.499595 8 27.395232 19.841466 40 19.841466 29.3384766 27.159334"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,45 @@
+ /* 2.12 Dental icon */
+ @font-face{
+    font-family:'icomoon';
+    src:url('../fonts/icomoon.ttf');
+    src:url('../fonts/icomoon.eot') format('embedded-opentype'), 
+			url('../fonts/icomoon.ttf') format('truetype'), 
+			url('../fonts/icomoon.woff') format('woff'), 
+			url('../fonts/icomoon.svg') format('svg');
+			font-weight:normal;
+			font-style:normal;
+			font-display: swap;
+    }
+ .dental_icon{font-family:'icomoon' !important;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:32px;}
+ .arrow-right-2:before {content:"\e91c";}
+ .dentalic_arrow_fon_r:before{content:"\e91d";}
+ .dentalic_arrow_fon_l:before{content:"\e91f";}
+ .dentalic_arrow_right:before{content:"\e91c";}
+ .dentalic_arrow_left:before{content:"\e904";}
+ .dentalic_arrow_down:before{content:"\e900";}
+ .dentalic_cosmetic2:before{content:"\e91a";}
+ .dentalic_letter:before{content:"\e901";}
+ .dentalic_problem:before{content:"\e902";}
+ .dentalic_solution:before{content:"\e903";}
+ .dentalic_offers:before{content:"\e905";}
+ .dentalic_signature:before{content:"\e915";}
+ .dentalic_preventative:before{content:"\e912";}
+ .dentalic_emergency:before{content:"\e913";}
+ .dentalic_other_services:before{content:"\e914";}
+ .dentalic_combined:before{content:"\e906";}
+ .dentalic_clinic:before{content:"\e907";}
+ .dentalic_cosmetic:before{content:"\e908";}
+ .dentalic_doctors:before{content:"\e909";}
+ .dentalic_education:before{content:"\e90a";}
+ .dentalic_financials:before{content:"\e90b";}
+ .dentalic_general:before{content:"\e90c";}
+ .dentalic_languages:before{content:"\e90d";}
+ .dentalic_membership:before{content:"\e90e";}
+ .dentalic_iorthodontics:before{content:"\e90f";}
+ .dentalic_pediatric:before{content:"\e910";}
+ .dentalic_quote:before{content:"\e911";}
+ .dentalic_restorations:before{content:"\e916";}
+ .dentalic_services:before{content:"\e917";}
+ .dentalic_staff:before{content:"\e918";}
+ .dentalic_technologies:before{content:"\e919";}
+ .dentalic_stamp:before{content:"\e91b";}

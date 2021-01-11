@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "hobbs_survey",
+    "password": "devPa$$word",
+    "database": "hobbs_survey",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "hobbs_survey",
+    "password": "devPa$$word",
+    "database": "hobbs_survey",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "hobbs_survey",
+    "password": "devPa$$word",
+    "database": "hobbs_survey",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}

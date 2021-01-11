@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>f_logo_RGB-Blue_1024</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.001171875 0.00078207647 20 0.00078207647 20 19.8995447 0.001171875 19.8995447"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-595.000000, -402.000000)">
+            <g id="f_logo_RGB-Blue_1024" transform="translate(595.000000, 402.000000)">
+                <g id="Group-3">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M20,10.0105788 C20,4.48188473 15.5228516,0 10,0 C4.47714844,0 0,4.48188473 0,10.0105788 C0,15.0071481 3.65685547,19.1485558 8.4375,19.8995447 L8.4375,12.9042618 L5.8984375,12.9042618 L5.8984375,10.0105788 L8.4375,10.0105788 L8.4375,7.80512317 C8.4375,5.29622185 9.93042969,3.91038235 12.2146484,3.91038235 C13.3087305,3.91038235 14.453125,4.10590147 14.453125,4.10590147 L14.453125,6.56944235 L13.1921484,6.56944235 C11.9499023,6.56944235 11.5625,7.34109765 11.5625,8.13275455 L11.5625,10.0105788 L14.3359375,10.0105788 L13.8925781,12.9042618 L11.5625,12.9042618 L11.5625,19.8995447 C16.3431445,19.1485558 20,15.0071481 20,10.0105788" id="Fill-1" fill="#B8B8B8" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

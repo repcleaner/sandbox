@@ -1,0 +1,7 @@
+//- --------------------------------------------------------
+//- MediaQueries
+//- --------------------------------------------------------
+media($alias)
+  if $alias in $mediaAliases
+    @media $mediaAliases[$alias]
+      {block}

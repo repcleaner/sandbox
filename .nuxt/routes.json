@@ -1,0 +1,26 @@
+[
+  {
+    "name": "home",
+    "path": "/home",
+    "component": "/Users/val.c/dentistry-on-dundas/pages/home.vue",
+    "chunkName": "pages/home"
+  },
+  {
+    "name": "services",
+    "path": "/services",
+    "component": "/Users/val.c/dentistry-on-dundas/pages/services/index.vue",
+    "chunkName": "pages/services/index"
+  },
+  {
+    "name": "services-cosmetic-invisalign",
+    "path": "/services/cosmetic/invisalign",
+    "component": "/Users/val.c/dentistry-on-dundas/pages/services/cosmetic/invisalign.vue",
+    "chunkName": "pages/services/cosmetic/invisalign"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/val.c/dentistry-on-dundas/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]

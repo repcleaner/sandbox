@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<title>Monthly Update</title>
+
+<style type="text/css">
+
+div, p, a, li, td { -webkit-text-size-adjust:100%; }
+table, td {mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+img {-ms-interpolation-mode: bicubic; }
+*{-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
+body{width: 100%; height: 100%; margin:0; padding:0; -webkit-font-smoothing: antialiased;}
+html{width: 100%;}
+
+/* Fonts */
+.hero {color: #32325D; font-size: 38px; font-family: Arial; font-weight: 900; text-align: center;}
+.title {color: #32325D; font-size: 28px; font-family: Arial; font-weight: 700; text-align: center;}
+.subtitle {color: #32325D; font-size: 21px; font-family: Arial; font-weight: 700; text-align: center;}
+.paragraph {color: #32325D; font-size: 16px; font-family: Arial; font-weight: 500; text-align: left; line-height: 24px;}
+.description {color: #32325D; font-size: 12px; font-family: Arial; font-weight: 500; text-align: left;}
+.highlight {color: #32325D; font-size: 51px; font-family: Arial; font-weight: 700; text-align: center; line-height: 34px;}
+
+/* Space & Sizing */
+.height10 {width: 100%; height: 10px;}
+.height20 {width: 100%; height: 20px;}
+.height30 {width: 100%; height: 30px;}
+.height40 {width: 100%; height: 40px;}
+.height50 {width: 100%; height: 50px;}
+.icon20 img {width: 20px; height: auto;}
+.icon26 img {width: 26px; height: auto;}
+.icon30 {width: 30px;}
+.image120 {width: 120px; height: 120px;}
+.image150 {width: 150px; height: 100px;}
+.image240 {width: 240px; height: 0; padding-bottom: 30%;}
+.timeline-width {width: 95%;}
+.timeline-height60 {height: 60px; padding: 0 0 0 2px;}
+.timeline-height90 {height: 90px; padding: 0 0 0 2px;}
+
+/* Styles */
+.header {background: #FFFFFF; border-radius: 8px 8px 0 0;}
+.footer {border-radius: 8px;}
+.brandloyal-logo {width: 150px; height: auto; vertical-align: middle;}
+.header-top-padding {height: 70px;}
+.footer-bottom-padding {height: 90px;}
+.city-image {width: 75%;}
+.diagonal-header {background-color: #F6F9FC; background-image: url('https://brandloyal.io/img/brandloyal-header-bg.png'); background-size: 100%; background-repeat: no-repeat;}
+.diagonal-footer {background-image: url('https://brandloyal.io/img/brandloyal-footer-bg.png'); background-size: 100%; background-repeat: no-repeat; background-position: top;}
+.list-margin {padding: 0 0 15px 0;}
+.list-paragraph {list-style-type: none; Margin: 0 0 0 8px;}
+.bullet-list {padding: 0 0 0 20px; Margin: 0;}
+.numbered-list {list-style-type: decimal; font-weight: 700;}
+.no-list {list-style-type: none;}
+.box {width: 65px; height: 24px; background-color: #58595B; padding: 0;}
+.reviews-collected {border: 5px solid #24B47E; border-radius: 100%; width: 120px; height: 120px;}
+
+@media (min-width: 1210px) {
+	.diagonal-header {background-position: bottom;}
+}
+
+@media (max-width: 988px) {
+	.diagonal-footer {background-position: bottom;}
+}
+
+@media (min-width: 641px){
+	.hide {display: none;}
+}
+
+@media (max-width: 640px){
+
+/* Fonts */
+.highlight {color: #32325D; font-size: 38px; font-family: Arial; font-weight: 900; text-align: center;}
+.hero {color: #32325D; font-size: 28px; font-family: Arial; font-weight: 700; text-align: center;}
+.title {color: #32325D; font-size: 21px; font-family: Arial; font-weight: 700; text-align: center;}
+.paragraph {color: #32325D; font-size: 16px; font-family: Arial; font-weight: 500; text-align: left; line-height: 24px;}
+
+/* Space & Sizing */
+body{width:auto!important;}
+.full {width: 100%!important; clear: both; }
+.mobile {width: 100%!important; padding-left: 20px; padding-right: 20px; clear: both;}
+.full-center {width: 100%!important; text-align: center!important; clear: both;}
+.full-half {width: 50%!important;}
+.mobile-hide {display: none;}
+.height20 {width: 100%; height: 10px;}
+.height30 {width: 100%; height: 20px;}
+.height40 {width: 100%; height: 20px;}
+.height50 {width: 100%; height: 30px;}
+.image120 {width: 100px; height: 100px;}
+.image240 {width: 49%; height: 0; padding-bottom: 30%;}
+.timeline-height60 {height: 75px; padding: 0 0 0 2px;}
+.timeline-height90 {height: 75px; padding: 0 0 0 2px;}
+.timeline-width {width: 90%;}
+
+/* Styles */
+.header {width: 100%; padding-left: 20px; padding-right: 20px; background: #FFFFFF; border-radius: 0;}
+.footer {width: 100%; padding-left: 20px; padding-right: 20px; background: #FFFFFF; border-radius: 0;}
+.list-split-column {width: 90%;}
+.box {height: 20px; width: 60px;}
+.reviews-collected {width: 100px; height: 100px;}
+
+} 
+</style>
+
+<!--[if gte mso 9]>
+<style>
+	li { text-indent: -1em; /* Normalise space between bullets and text */ }
+</style>
+<![endif]-->
+
+</head>
+
+<body style="margin: 0; padding: 0;">
+
+<!-- Header Component: Overview + Button -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt; mso-table-rspace:0pt;" class="diagonal-header"><!-- coloring the whole table instead of just the cells you want, will stop gaps forming on forwarding from Outlook -->
+	<tr>
+		<td class="height20"></td>
+    </tr>
+    <tr>
+        <td width="100%" style="text-align: center;">
+            <img src="https://brandloyal.io/img/brandloyal-logo.png" alt="BrandLoyal logo in white" border="0" height="auto" class="brandloyal-logo">
+        </td>
+    </tr>
+    <tr>
+		<td class="height20"></td>
+    </tr>
+	<tr>
+		<td rowspan="2" align="center">
+            <!-- Wrapper -->
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="header">
+				<tr>
+					<td width="100%" align="center">
+						<table border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full-center">
+							<tr>
+								<td class="height50"></td>
+							</tr>
+							<tr>
+								<!-- Title -->
+								<td valign="top" width="490" class="hero">
+									Almost finished!
+								</td><!-- End Title -->
+							</tr>
+							<tr>
+								<td width="100%" height="10"></td>
+							</tr>
+							<tr>
+								<!-- Subtitle -->
+								<td width="490" style="text-align: center;" class="paragraph">
+									Verify your email below
+								</td><!-- End Subtitle -->
+							</tr>
+							<tr>
+								<td class="height30"></td>
+							</tr>
+							<!-- Button -->
+							<tr bgcolor="#FFFFFF" align="center">
+								<td width="auto" align="center">
+									<a href="https://ormtools.xyz/dashboard" style="font-weight: 700; text-decoration: none;" class="paragraph">
+										<table border="0" cellpadding="0" cellspacing="0" align="center">
+											<tr>											
+												<td width="240" align="center" height="45" bgcolor="#eb5c24" style="border-radius: 30px; color: #FFFFFF; background: linear-gradient(-30deg,#ec8327,#ed9a27 36%,#eeaa28 74%,#efb428);">
+													Verify Email
+												</td>
+											</tr>
+										</table>
+									</a>
+								</td>
+							</tr><!-- End Button -->
+							<tr>
+								<td class="height40"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table><!-- End Wrapper -->
+        </td>
+	</tr>
+</table><!-- End Header Component: Title + Subtitle -->
+
+
+
+
+<!-- ADF Footer Overlap -->
+<!-- Component: Next Steps -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="absbottom" style="background: #F6F9FC; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full"><!-- coloring the whole table instead of just the cells you want, will stop gaps forming on forwarding from Outlook -->
+<tr>
+    <td rowspan="2" align="center">
+        <!-- Next Steps Component -->
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+            <tr>
+                <td width="100%" class="diagonal-footer" align="center">
+
+                    <!-- Wrapper -->
+					<table width="600" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" align="center" class="footer">
+						<tr>
+							<td align="center">
+							
+								<!-- Space -->
+								<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+									<tr>
+										<td class="height50"></td>
+									</tr>
+								</table><!-- End Space -->
+								
+								<!-- Icon Title -->
+								<table width="490" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full-center">
+									<tr>
+										<td width="100%" class="title" align="absmiddle">
+											Other Resources
+										</td>
+									</tr>
+									<tr>
+										<td class="height30"></td>
+									</tr>
+								</table><!-- End Icon Title -->
+
+								<!-- Vehicle Types -->
+								<table width="490" border="0" cellpadding="0" cellspacing="0" align="center" class="full-center">
+									<tr>
+										<td width="100%" align="center">
+												
+											<!-- Top Left Image -->
+											<a href="">
+											<table bgcolor="#F5F5F5" align="left" border="0" cellpadding="0" cellspacing="0" style="border-radius: 4px; background-image: url('https://i.imgur.com/lV2t25U.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; display:block; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="image240">
+												<tr>
+													<td style="padding: 16px; font-weight: 700;" class="paragraph">
+														What can
+														<br>
+														I do with
+														<br>
+														my data?
+													</td>
+												</tr>
+											</table>
+											</a><!-- End Top Left Image -->
+
+											<!-- Top Right Image -->
+											<a href="">
+											<table bgcolor="#F5F5F5" align="right" border="0" cellpadding="0" cellspacing="0" style="border-radius: 4px; background-image: url('https://i.imgur.com/KdKGOC9.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; display:block; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="image240">
+												<tr>
+													<td style="padding: 16px; font-weight: 700;" class="paragraph">
+														How do
+														<br>
+														I remove
+														<br>
+														negative
+														<br>
+														reviews?
+													</td>
+												</tr>
+											</table>
+											</a><!-- End Top Right Image -->
+
+										</td>
+									</tr>
+									<tr>
+										<td class="height30"></td>
+									</tr>
+									<tr>
+										<!-- Subtitle -->
+									
+									</tr>
+								</table><!-- End Vehicle Types -->
+								
+								<!-- Space -->
+								<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+									<tr>
+										<td class="height50"></td>
+									</tr>
+								</table><!-- End Space -->
+							
+							</td>
+						</tr>
+					</table><!-- End Wrapper -->
+
+					<!-- Contact Component -->
+					<table width="600" height="3" bgcolor="#32325D" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+						<tr>
+							<td width="100%" height="34"></td>
+						</tr>
+						<tr>
+							<td width="100%" style="font-weight: 700; text-align: center; color: #FFFFFF;" align="center" class="paragraph">
+								Questions?
+							</td>
+						</tr>
+						<tr>
+							<td width="100%" height="3"></td>
+						</tr>
+						<tr>
+							<td width="100%" style="text-align: center; color: #FFFFFF;" align="center" class="paragraph">
+								Visit our <a href="https://vroom.zendesk.com/hc/en-us" style="text-decoration: underline; color: #FFFFFF;">FAQ Page</a>
+							</td>
+						</tr>
+						<tr>
+							<td width="100%" height="3"></td>
+						</tr>
+						<tr>
+							<td width="100%" style="text-align: center; color: #FFFFFF;" align="center" class="paragraph">
+								<a href="mailto:support@brandloyal.io" style="text-decoration: underline; color: #FFFFFF;">support@brandloyal.io</a>
+							</td>
+						</tr>
+						<tr>
+							<td width="100%" height="7"></td>
+						</tr>
+						<tr>
+							<td width="100%" style="text-align: center; color: #FFFFFF;" align="center" class="paragraph">
+								<a href="tel:855-219-5411" style="text-decoration: none; color: #FFFFFF;"><span style="font-weight: 700;">(855) 800-3445</span></a>
+							</td>
+						</tr>
+						<tr>
+							<td width="100%" height="38"></td>
+						</tr>
+					</table><!-- End Contact Component -->
+
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+</table><!-- End Component: Next Steps --><!-- End ADF Footer Overlap -->
+
+<!-- Footer -->	
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+	<tr>
+		<td align="center" width="100%" valign="top" bgcolor="#F6F9FC">	
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tr>
+					<td align="center">
+					
+						<!-- Space -->
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tr>
+								<td width="100%" height="20"></td>
+							</tr>
+						</table><!-- End Space -->
+								
+						<!-- Wrapper -->
+						<table width="490" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tr>
+								<td width="100%" align="center">
+																
+									<!-- Footer Info -->
+									<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+										<tr>
+											<td width="100%">
+												<table border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full-center">
+													<tr>
+														<td style="text-align: center; font-family: Helvetica, sans-serif; font-size: 10px; color: #6B7C92; line-height: 18px; vertical-align: middle; font-weight: 400; letter-spacing: 1.5px;">
+															
+															COPYRIGHT&nbsp;&copy;&nbsp;2018&nbsp;BRANDLOYAL&nbsp;&nbsp;&nbsp;&nbsp;
+
+															<br class="hide">
+															
+															<a href="https://www.vroom.com/content/pdfs/Privacy_Policy.pdf?utm_source=Sendgrid&utm_medium=email&utm_campaign=welcome_v1&utm_term=trans_welcome&utm_content=privacy" style="text-decoration: none; color:#6B7C92;">PRIVACY</a>
+															&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.vroom.com/content/pdfs/Terms_and_Conditions.pdf?utm_source=Sendgrid&utm_medium=email&utm_campaign=welcome_v1&utm_term=trans_welcome&utm_content=terms"style="text-decoration: none; color:#6B7C92;">TERMS</a>
+															&nbsp;&nbsp;&nbsp;&nbsp;<a href="[unsubscribe]" style="text-decoration: none; color:#6B7C92;">UNSUBSCRIBE</a>
+															
+														</td>
+													</tr>
+													<!-- Space -->
+													<tr>
+														<td width="100%" height="12"></td>
+													</tr><!-- End Space -->
+													<tr>
+														<td style="text-align: center; font-family: Helvetica, sans-serif; font-size: 10px; color: #6B7C92; line-height: 18px; vertical-align: middle; font-weight: 400; letter-spacing: 1.5px;">
+															
+															20 Camden Street, 3rd Floor,
+															
+															<br class="hide">
+
+															Toronto, ON M5V1V1
+															
+														</td>
+													</tr>
+												</table>					
+											</td>
+										</tr>
+									</table><!-- End Footer Info -->
+									
+								</td>
+							</tr>
+						</table><!-- End Wrapper -->
+						
+						<!-- Space -->
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</table><!-- End Space -->
+					
+					</td>
+				</tr>
+			</table><!-- End Wrapper -->
+		</td>
+	</tr>
+</table><!-- End Footer -->	
+
+</body>
+</html>

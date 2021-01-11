@@ -1,0 +1,108 @@
+{
+  "CallerReference": "franchise-expo.happyfeed.io",
+  "Comment": "",
+  "CacheBehaviors": {
+    "Quantity": 0
+  },
+  "IsIPV6Enabled": true,
+  "Logging": {
+    "Bucket": "",
+    "Prefix": "",
+    "Enabled": false,
+    "IncludeCookies": false
+  },
+  "WebACLId": "",
+  "Origins": {
+    "Items": [
+      {
+        "OriginPath": "",
+        "CustomOriginConfig": {
+          "OriginSslProtocols": {
+            "Items": [
+              "TLSv1",
+              "TLSv1.1",
+              "TLSv1.2"
+            ],
+            "Quantity": 3
+          },
+          "OriginProtocolPolicy": "http-only",
+          "OriginReadTimeout": 30,
+          "HTTPPort": 80,
+          "HTTPSPort": 443,
+          "OriginKeepaliveTimeout": 5
+        },
+        "CustomHeaders": {
+          "Quantity": 0
+        },
+        "Id": "S3-Website-franchise-expo.happyfeed.io.s3-website.us-east-2.amazonaws.com",
+        "DomainName": "franchise-expo.happyfeed.io.s3-website.us-east-2.amazonaws.com"
+      }
+    ],
+    "Quantity": 1
+  },
+  "DefaultRootObject": "",
+  "PriceClass": "PriceClass_All",
+  "Enabled": true,
+  "DefaultCacheBehavior": {
+    "TrustedSigners": {
+      "Enabled": false,
+      "Quantity": 0
+    },
+    "LambdaFunctionAssociations": {
+      "Quantity": 0
+    },
+    "TargetOriginId": "S3-Website-franchise-expo.happyfeed.io.s3-website.us-east-2.amazonaws.com",
+    "ViewerProtocolPolicy": "redirect-to-https",
+    "ForwardedValues": {
+      "Headers": {
+        "Quantity": 0
+      },
+      "Cookies": {
+        "Forward": "none"
+      },
+      "QueryStringCacheKeys": {
+        "Quantity": 0
+      },
+      "QueryString": false
+    },
+    "MaxTTL": 31536000,
+    "SmoothStreaming": false,
+    "DefaultTTL": 86400,
+    "AllowedMethods": {
+      "Items": [
+        "HEAD",
+        "GET"
+      ],
+      "CachedMethods": {
+        "Items": [
+          "HEAD",
+          "GET"
+        ],
+        "Quantity": 2
+      },
+      "Quantity": 2
+    },
+    "MinTTL": 0,
+    "Compress": true
+  },
+  "ViewerCertificate": {
+    "SSLSupportMethod": "sni-only",
+    "ACMCertificateArn": "arn:aws:acm:us-east-1:113276029572:certificate/682883ce-2ab7-428a-9082-affd186aef16",
+    "MinimumProtocolVersion": "TLSv1.1_2016",
+    "Certificate": "arn:aws:acm:us-east-1:113276029572:certificate/682883ce-2ab7-428a-9082-affd186aef16",
+    "CertificateSource": "acm"
+  },
+  "CustomErrorResponses": {
+    "Quantity": 0
+  },
+  "HttpVersion": "http2",
+  "Restrictions": {
+    "GeoRestriction": {
+      "RestrictionType": "none",
+      "Quantity": 0
+    }
+  },
+  "Aliases": {
+    "Quantity": 0
+  }
+}
