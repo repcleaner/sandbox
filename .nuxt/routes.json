@@ -2,29 +2,29 @@
   {
     "name": "home",
     "path": "/home",
-    "component": "/Users/val.c/dentistry-on-dundas/pages/home.vue",
+    "component": "/Users/dylanhobbs/Documents/BrandLoyal Clients/sandbox/sandbox/pages/home.vue",
     "chunkName": "pages/home",
-    "_name": "_032f49e6"
+    "_name": "_00c055be"
   },
   {
     "name": "services",
     "path": "/services",
-    "component": "/Users/val.c/dentistry-on-dundas/pages/services/index.vue",
+    "component": "/Users/dylanhobbs/Documents/BrandLoyal Clients/sandbox/sandbox/pages/services/index.vue",
     "chunkName": "pages/services/index",
-    "_name": "_69026528"
+    "_name": "_173662a3"
   },
   {
     "name": "services-cosmetic-invisalign",
     "path": "/services/cosmetic/invisalign",
-    "component": "/Users/val.c/dentistry-on-dundas/pages/services/cosmetic/invisalign.vue",
+    "component": "/Users/dylanhobbs/Documents/BrandLoyal Clients/sandbox/sandbox/pages/services/cosmetic/invisalign.vue",
     "chunkName": "pages/services/cosmetic/invisalign",
-    "_name": "_5360da20"
+    "_name": "_9e7bb74a"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/val.c/dentistry-on-dundas/pages/index.vue",
+    "component": "/Users/dylanhobbs/Documents/BrandLoyal Clients/sandbox/sandbox/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_9211934a"
+    "_name": "_48981280"
   }
 ]

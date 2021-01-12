@@ -12,11 +12,10 @@ import '../assets/stylus/global.styl'
 
 import '../node_modules/prismjs/themes/prism.css'
 
-import _2d21d098 from '../layouts/blog.vue'
 import _6f6c098b from '../layouts/default.vue'
 import _faf01bde from '../layouts/sandbox.vue'
 
-const layouts = { "_blog": sanitizeComponent(_2d21d098),"_default": sanitizeComponent(_6f6c098b),"_sandbox": sanitizeComponent(_faf01bde) }
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_sandbox": sanitizeComponent(_faf01bde) }
 
 export default {
   render (h, props) {

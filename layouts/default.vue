@@ -943,7 +943,7 @@ types = types.split(rspaces);
 
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 body 
   background $bg-color
 
